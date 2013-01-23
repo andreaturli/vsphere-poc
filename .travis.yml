@@ -4,9 +4,5 @@ install: mvn clean install --quiet
 jdk:
   - oraclejdk7
 
-branches:
-  only:
-    - master
-
 notifications:
     email: true
