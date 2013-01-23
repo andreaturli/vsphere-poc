@@ -1,5 +1,5 @@
 language: java 
-install: mvn clean install --quiet
+install: mvn clean install
 
 jdk:
   - oraclejdk7
