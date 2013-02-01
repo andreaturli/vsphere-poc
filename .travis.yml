@@ -5,4 +5,6 @@ jdk:
   - oraclejdk7
 
 notifications:
-    email: true
+  irc:
+    channels:
+      - "irc.freenode.org#brooklyncentral"

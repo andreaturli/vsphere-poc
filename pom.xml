@@ -4,6 +4,11 @@
 	<groupId>com.cloudsoft</groupId>
 	<artifactId>vsphere-poc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
+   <properties>
+      <jclouds.version>1.6.0-SNAPSHOT</jclouds.version>
+   </properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>com.cloudbees.thirdparty</groupId>
@@ -14,32 +19,32 @@
       <dependency>
          <groupId>org.jclouds.api</groupId>
          <artifactId>vsphere</artifactId>
-         <version>1.6.0-SNAPSHOT</version>
+         <version>${jclouds.version}</version>
          <scope>compile</scope>
       </dependency>
       <dependency>
          <groupId>org.jclouds.api</groupId>
          <artifactId>vsphere</artifactId>
-         <version>1.6.0-SNAPSHOT</version>
+         <version>1.5.6</version>
          <type>test-jar</type>
          <scope>test</scope>
       </dependency>       
       <dependency>
          <groupId>org.jclouds</groupId>
          <artifactId>jclouds-core</artifactId>
-         <version>1.6.0-SNAPSHOT</version>
+         <version>${jclouds.version}</version>
          <type>test-jar</type>
          <scope>test</scope>
       </dependency>      
       <dependency>
          <groupId>org.jclouds</groupId>
          <artifactId>jclouds-compute</artifactId>
-         <version>1.6.0-SNAPSHOT</version>
+         <version>${jclouds.version}</version>
       </dependency>
       <dependency>
          <groupId>org.jclouds</groupId>
          <artifactId>jclouds-compute</artifactId>
-         <version>1.6.0-SNAPSHOT</version>
+         <version>${jclouds.version}</version>
          <type>test-jar</type>
          <scope>test</scope>
       </dependency>
